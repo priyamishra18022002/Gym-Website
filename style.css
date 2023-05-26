@@ -1,0 +1,118 @@
+body {
+    font-family: 'Baloo Bhai', cursives;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('GYM_BG.jpg');
+    
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 45%;
+    margin: 20px 133px;
+    margin-left: 106px
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    display: inline-block;
+    top: 31px;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: #0d0101;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: auto;
+    padding: 18px;
+    width: 61%;
+    border-radius: 28px;
+    margin-top: 73px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+img {
+    box-sizing: border-box;
+    display: block;
+    height: 89px;
+    border-radius: 80px;
+    width: 100%;
+    filter: invert(100%);
+}
